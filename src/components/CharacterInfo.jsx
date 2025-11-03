@@ -1,6 +1,6 @@
 export const CharacterInfo = ({ data }) => {
   if (!data) return null;
-  const image = `https://thesimpsonsapi.com${data.portrait_path}`;
+  const image = `https://cdn.thesimpsonsapi.com/200/character/${data.id}.webp`;
 
   return (
     <div>
