@@ -16,7 +16,7 @@ export function App() {
   };
   return (
     <div className="App">
-      <div>
+      <div className="Bienvenida">
         <h1>Bienvenido</h1>
         <button onClick={() => setShowtask("task1")}>Tarea 1</button>
         <button onClick={() => setShowtask("task2")}>Tarea 2</button>

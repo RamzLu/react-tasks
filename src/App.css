@@ -43,3 +43,29 @@ button {
 button:hover {
   background-color: #0056b3;
 }
+
+.Bienvenida {
+  font-size: 24px;
+  color: #ff1493;
+  margin: 20px 0;
+}
+
+.Bienvenida button {
+  margin: 0 10px;
+}
+
+@keyframes normalize {
+  to {
+    transform: rotateX(0deg);
+  }
+}
+
+.Bienvenida button:hover {
+  background-color: #ec68b1;
+  color: white;
+  transform: rotateX(10deg);
+  border: none;
+  padding: 8px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+}
